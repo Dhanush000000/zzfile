@@ -29,7 +29,7 @@ class _BotCommands:
         self.RmSudoCommand      = f'rmsudo{CMD_SUFFIX}'
         self.HelpCommand        = f'help{CMD_SUFFIX}'
         self.LogCommand         = f'log{CMD_SUFFIX}'
-        self.ShellCommand       = f'shell{CMD_SUFFIX}'
+        self.ShellCommand       = [f'shell{CMD_SUFFIX}', f'sh{CMD_SUFFIX}']
         self.EvalCommand        = f'eval{CMD_SUFFIX}'
         self.ExecCommand        = f'exec{CMD_SUFFIX}'
         self.ClearLocalsCommand = f'clearlocals{CMD_SUFFIX}'
@@ -40,5 +40,7 @@ class _BotCommands:
         self.CategorySelect     = f'catsel{CMD_SUFFIX}'
         self.RmdbCommand        = f'rmdb{CMD_SUFFIX}'
         self.RmalltokensCommand = f'rmat{CMD_SUFFIX}'
+        self.MLocalUploadCommand = [f'mupload{CMD_SUFFIX}', f'up{CMD_SUFFIX}']
+        self.LLocalUploadCommand = [f'lupload{CMD_SUFFIX}', f'lup{CMD_SUFFIX}']
 
 BotCommands = _BotCommands()
