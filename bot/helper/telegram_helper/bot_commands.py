@@ -30,6 +30,7 @@ class _BotCommands:
         self.HelpCommand        = f'help{CMD_SUFFIX}'
         self.LogCommand         = f'log{CMD_SUFFIX}'
         self.ShellCommand       = [f'shell{CMD_SUFFIX}', f'sh{CMD_SUFFIX}']
+        self.BypassCommand      = [f'bypass{CMD_SUFFIX}', f'bp{CMD_SUFFIX}']
         self.EvalCommand        = f'eval{CMD_SUFFIX}'
         self.ExecCommand        = f'exec{CMD_SUFFIX}'
         self.ClearLocalsCommand = f'clearlocals{CMD_SUFFIX}'
